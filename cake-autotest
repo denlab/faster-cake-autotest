@@ -1,0 +1,16 @@
+#!/bin/bash
+
+ERROR_PATT='[0-9]*[1-9] failures\|[0-9]*[1-9] errors\|FAILURE: [0-9]* fact was not confirmed.'
+SUCCESS_PATT='0 failures\|0 errors\|All claimed facts ([0-9]*) have been confirmed.'
+
+# magic color stuff from http://www.pixelbeat.org/talks/iitui/sedgrep
+C_ERROR_PATT=`echo -e '\033[01;41m'`         # red
+C_SUCCESS_PATT=`echo -e '\033[01;42m'`       # green
+C_NORM=`echo -e '\033[m'`                    # normal
+
+while true
+do
+    cake midje | sed "s¬$ERROR_PATT¬$C_ERROR_PATT&$C_NORM¬gi" | sed "s¬$SUCCESS_PATT¬$C_SUCCESS_PATT&$C_NORM¬gi"
+
+    inotifywait -r -e modify . 2> /dev/null
+done
