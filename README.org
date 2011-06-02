@@ -23,8 +23,27 @@ apt-get install inotify-tools
   - Add the the [[https://github.com/marick/Midje/wiki/Cake-midje][Midje Cake plugin]] to your project:
     - Add [[https://github.com/marick/Midje/raw/master/examples/cake-midje/tasks.clj][tasks.clj]] to your the root directory of your project.
 
+* Usage 
+  - Simply call: 
+#+BEGIN_SRC sh
+cake-autotest
+#+END_SRC
+  - Instead of: 
+#+BEGIN_SRC sh
+cake autotest
+#+END_SRC
 
+* Additionnal notes
 
+  - I like to launch it an small Emacs window (like in the screenshot above).
+  - So I always know the health of my project.
+  - Because the red / green color are flashy, I don't even need to
+    look at it: In the corner of my eyes I can 'feel' if everything is
+    OK or not.
+  - Plus I use it as a reminder: When I'm interrupted in the middle of
+    a task - usually in the middle of a failing test: 'red status' -
+    when I come back to the project I can switch context back again by
+    looking at the failing test.
 
 * Issues
 
