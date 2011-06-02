@@ -36,7 +36,7 @@ cake autotest
 * Additionnal notes
 
   - I like to launch it an small Emacs window (like in the screenshot above).
-  - So I always know the health of my project.
+  - So I always know the health of the project.
   - Because the red / green color are flashy, I don't even need to
     look at it: In the corner of my eyes I can 'feel' if everything is
     OK or not.
