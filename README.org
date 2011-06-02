@@ -16,7 +16,7 @@
 
   - Of course you need [[https://github.com/ninjudd/cake][cake]].
 
-  - You need =inotify-tools=, on Debian: 
+  - You need =inotify-tools=, to install on Debian: 
 #+BEGIN_SRC sh
 apt-get install inotify-tools
 #+END_SRC
