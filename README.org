@@ -17,9 +17,9 @@
 
   - Of course you need [[https://github.com/ninjudd/cake][cake]].
 
-  - You need =inotify-tools=, on Ubuntu: 
+  - You need =inotify-tools=, on Debian: 
 #+BEGIN_SRC sh
-sudo apt-get install inotify-tools
+apt-get install inotify-tools
 #+END_SRC
   - The script is using =cake midje=, so you need to add the Midje
     Cake plugin: To do that add [[https://github.com/marick/Midje/raw/master/examples/cake-midje/tasks.clj][this file]] to your the root directory
