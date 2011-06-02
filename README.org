@@ -28,4 +28,4 @@ apt-get install inotify-tools
 
 * Issues
 
-  - Probably don't work on other plateform than Linux (untested).
+  - Probably don't work on other plateform than Linux (untested™).
