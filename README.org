@@ -13,7 +13,7 @@
 * Install
 
   - Download the =cake-autotest= script, make it executable and put it
-    in your path.
+    in your =PATH=.
 
   - Of course you need [[https://github.com/ninjudd/cake][cake]].
 
