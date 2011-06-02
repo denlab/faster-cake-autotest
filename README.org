@@ -3,7 +3,7 @@
 
 * What's this? 
 
-  A thin wrapper around =cake midje= that adds: 
+  A tiny wrapper around =cake midje= that adds: 
     - Instantaneous detection of changes in the project using Linux's inotify.
     - Add color to output dependending on the success or failure of
       tests.
