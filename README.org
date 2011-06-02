@@ -21,9 +21,8 @@
 #+BEGIN_SRC sh
 apt-get install inotify-tools
 #+END_SRC
-  - The script is using =cake midje=, so you need to add the Midje
-    Cake plugin: To do that add [[https://github.com/marick/Midje/raw/master/examples/cake-midje/tasks.clj][this file]] to your the root directory
-    of your project. More informations [[https://github.com/marick/Midje/wiki/Cake-midje][here]].
+  - Add the the [[https://github.com/marick/Midje/wiki/Cake-midje][Midje Cake plugin]] to your project:
+    - Add [[https://github.com/marick/Midje/raw/master/examples/cake-midje/tasks.clj][tasks.clj]] to your the root directory of your project.
 
 
 
