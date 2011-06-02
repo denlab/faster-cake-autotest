@@ -14,6 +14,9 @@
 
   - Download the =cake-autotest= script, make it executable and put it
     in your path.
+
+  - Of course you need [[https://github.com/ninjudd/cake][cake]].
+
   - You need =inotify-tools=, on Ubuntu: 
 #+BEGIN_SRC sh
 sudo apt-get install inotify-tools
