@@ -40,7 +40,7 @@ cake autotest
   - Because the red / green color are flashy, I don't even need to
     look at it: In the corner of my eyes I can 'feel' if everything is
     OK or not.
-  - Plus I use it as a reminder: When I'm interrupted in the middle of
+  - It also act as a reminder: When I'm interrupted in the middle of
     a task - usually in the middle of a failing test: 'red status' -
     when I come back to the project I can switch context back again by
     looking at the failing test.
