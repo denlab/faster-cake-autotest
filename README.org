@@ -1,4 +1,3 @@
-#+TITLE: faster-cake-autotest
 #+STARTUP: indent
 
 * What's this? 
