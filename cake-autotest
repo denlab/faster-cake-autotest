@@ -8,9 +8,12 @@ C_ERROR_PATT=`echo -e '\033[01;41m'`         # red
 C_SUCCESS_PATT=`echo -e '\033[01;42m'`       # green
 C_NORM=`echo -e '\033[m'`                    # normal
 
+# here put backup files, ...
+FILE_EXCLUDE_PATT='#.*#'
+
 while true
 do
     cake midje | sed "s¬$ERROR_PATT¬$C_ERROR_PATT&$C_NORM¬gi" | sed "s¬$SUCCESS_PATT¬$C_SUCCESS_PATT&$C_NORM¬gi"
 
-    inotifywait -r -e modify . 2> /dev/null
+    inotifywait --exclude "$FILE_EXCLUDE_PATT" -r -e modify . 2> /dev/null
 done
