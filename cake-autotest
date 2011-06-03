@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ERROR_PATT='[0-9]*[1-9] failures\|[0-9]*[1-9] errors\|FAILURE: [0-9]* fact was not confirmed.'
+ERROR_PATT='[0-9]*[1-9] failures\|[0-9]*[1-9] errors\|FAILURE: [0-9]* fact.* not confirmed.'
 SUCCESS_PATT='0 failures\|0 errors\|All claimed facts ([0-9]*) have been confirmed.'
 
 # magic color stuff from http://www.pixelbeat.org/talks/iitui/sedgrep
