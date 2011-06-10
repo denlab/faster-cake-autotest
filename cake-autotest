@@ -1,5 +1,7 @@
 #!/bin/bash
 
+hash inotifywait 2>&- || { echo >&2 "I require inotifywait but it's not installed.  Aborting."; exit 1; }
+
 ERROR_PATT='[0-9]*[1-9] failures\|[0-9]*[1-9] errors\|FAILURE: [0-9]* fact.* not confirmed.'
 SUCCESS_PATT='0 failures\|0 errors\|All claimed facts ([0-9]*) have been confirmed.'
 
