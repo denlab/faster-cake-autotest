@@ -14,7 +14,7 @@
   - Download the =cake-autotest= script, make it executable and put it
     in your =PATH=.
 
-  - Of course you need [[https://github.com/ninjudd/cake][cake]].
+  - Of course you need [[https://github.com/flatland/cake][cake]].
 
   - You need =inotify-tools=, to install on Debian: 
 #+BEGIN_SRC sh
